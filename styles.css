@@ -1,0 +1,174 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("23544086_SL-100420-36140-05_LRTdT__please_credit[palette.fm].jpg");
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #258A60;
+    border-radius: 50px;
+}
+
+.login-form button {
+    display: block; 
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 10px;
+    background-color: #258A60; 
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.login-form button:hover {
+    background-color: #1c6949; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #1c6949; 
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px; 
+    background: #258A60; 
+    border-bottom-left-radius: 63px; 
+    border-bottom-right-radius: 63px
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 152px; 
+    height: 81px;
+    
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.user-profile img {
+    width:60px;
+    height:60px;
+}
+
+.iconinfo {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.iconinfo img {
+    width:60px;
+    height:60px;
+    margin-right: 10px; 
+}
+
+.tooltip-text {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: #555;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    text-align: justify;
+}
+
+
+
+.info {
+    position: relative;
+    top: 30px;
+    font-size: 30px; 
+    font-family: Inter; 
+     
+    
+}
+
+.mapa {
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+    font-family: Inter;
+}
+
+
+
+.font-principal {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.02em;
+}
+
+li {
+    list-style-type: none;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
